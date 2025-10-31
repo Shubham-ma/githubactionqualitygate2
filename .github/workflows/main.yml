@@ -25,7 +25,7 @@ jobs:
              run: pip install -r .github/workflows/requirements.txt
 
            - name: run test cases
-             run: pytest .github/workflows/--cov=. --cov-report=term
+             run: pytest .github/workflows/--cov=calc --cov-report=term
 
 
     
